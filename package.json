@@ -1,0 +1,19 @@
+{
+  "name": "RemainderApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webserver.js",
+  "scripts": {
+    "watch": "nodemon webserver",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.5.7",
+    "nodemon": "^2.0.3",
+    "sanitize-html": "^1.23.0"
+  }
+}
